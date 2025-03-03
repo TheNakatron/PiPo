@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- values/styles.xml -->
+<resources>
+    <!-- Замените на тему MaterialComponents -->
+    <style name="Theme.MyApp.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Ваши кастомные атрибуты -->
+
+    </style>
+
+
+    <style name="Theme.MyApp.Light" parent="Theme.MaterialComponents.Light">
+        <!-- Ваши кастомные атрибуты -->
+
+    </style>
+
+    <style name="Widget.MyApp.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:tint">@null</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+    </style>
+
+</resources>
